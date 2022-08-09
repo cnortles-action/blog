@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>落星屋</title>
+  <icon>https://source.cnortles.top/avatar.png</icon>
+  <subtitle>分享所见</subtitle>
+  <link href="https://www.cnortles.top/atom.xml" rel="self"/>
+  
+  <link href="https://www.cnortles.top/"/>
+  <updated>2022-08-09T16:15:56.769Z</updated>
+  <id>https://www.cnortles.top/</id>
+  
+  <author>
+    <name>stars</name>
+    <email>crl@cnortles.top</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>公益项目</title>
+    <link href="https://www.cnortles.top/posts/welfare.html"/>
+    <id>https://www.cnortles.top/posts/welfare.html</id>
+    <published>2022-08-04T01:38:32.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note warning</summary>
+        
+      
+    
+    
+    
+    <category term="资源" scheme="https://www.cnortles.top/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="公益" scheme="https://www.cnortles.top/tags/%E5%85%AC%E7%9B%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[软件推荐]番茄TO DO</title>
+    <link href="https://www.cnortles.top/posts/24todo.html"/>
+    <id>https://www.cnortles.top/posts/24todo.html</id>
+    <published>2022-07-31T09:19:41.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note info simple&quot;&gt;&lt;p&gt;本文只做推荐,如果您是 24 届高考生,请点击 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="资源" scheme="https://www.cnortles.top/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="软件推荐" scheme="https://www.cnortles.top/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>备忘录</title>
+    <link href="https://www.cnortles.top/posts/27d394ca.html"/>
+    <id>https://www.cnortles.top/posts/27d394ca.html</id>
+    <published>2022-07-29T07:55:43.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;网站提示信息魔改&lt;/h1&gt;
+&lt;details class=&quot;folding-tag&quot; green&gt;&lt;summary&gt; .......\butterfly\languages\zh-CN.yml &lt;/summary&gt;
+              &lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="源码" scheme="https://www.cnortles.top/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="hexo" scheme="https://www.cnortles.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设备检测</title>
+    <link href="https://www.cnortles.top/posts/411b67b6.html"/>
+    <id>https://www.cnortles.top/posts/411b67b6.html</id>
+    <published>2022-07-27T07:29:02.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;设备检测这一块，看似没有用，但在有的时候用处确实很大的，比说如搞一些特色服务&lt;/p&gt;
+&lt;h1&gt;代码&lt;/h1&gt;
+&lt;h2 id=&quot;设备类型判断&quot;&gt;设备类型判断&lt;/h2&gt;
+&lt;h3 id=&quot;PHP&quot;&gt;PHP&lt;/h3&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="源码" scheme="https://www.cnortles.top/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="源码" scheme="https://www.cnortles.top/tags/%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为你的网站增加网盘下载</title>
+    <link href="https://www.cnortles.top/posts/pandownjs.html"/>
+    <id>https://www.cnortles.top/posts/pandownjs.html</id>
+    <published>2022-07-27T06:57:37.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note info simple&quot;&gt;&lt;p&gt;本文默认以 butterfly 为示例&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;这是一个原生的 JS 文件，不需要安装插件&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="资源" scheme="https://www.cnortles.top/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="资源" scheme="https://www.cnortles.top/tags/%E8%B5%84%E6%BA%90/"/>
+    
+    <category term="js" scheme="https://www.cnortles.top/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为你的网站添加欢迎提示</title>
+    <link href="https://www.cnortles.top/posts/welcomess.html"/>
+    <id>https://www.cnortles.top/posts/welcomess.html</id>
+    <published>2022-07-25T23:48:07.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;一个纯 JS 的小功能，代码也十分的简单，主要是调用&lt;code&gt;snackbar&lt;/code&gt;功能，输出浏览器，IP，来源等一些信息，和看板娘的部分功能相同&lt;/p&gt;
+&lt;h1&gt;步骤&lt;/h1&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="源码" scheme="https://www.cnortles.top/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="源码" scheme="https://www.cnortles.top/tags/%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用CSS rem元素实现网站自适应</title>
+    <link href="https://www.cnortles.top/posts/a889f9e9.html"/>
+    <id>https://www.cnortles.top/posts/a889f9e9.html</id>
+    <published>2022-07-23T02:37:12.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;h2 id=&quot;什么是-rem&quot;&gt;什么是 rem&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个单位可谓集相对大小和绝对大小的优点于一身，通过它既可以做到只修改根元素就成比例地调整所有字体大小，又可以避免字体大小逐层复合的连锁反应。除了 IE8</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://www.cnortles.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="css" scheme="https://www.cnortles.top/tags/css/"/>
+    
+    <category term="html" scheme="https://www.cnortles.top/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>视频解析</title>
+    <link href="https://www.cnortles.top/posts/e43f3b7d.html"/>
+    <id>https://www.cnortles.top/posts/e43f3b7d.html</id>
+    <published>2022-07-20T23:51:06.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;声明&lt;/h1&gt;
+&lt;p&gt;一切资源来自于网络，本站不保存任何资源！！！&lt;/p&gt;
+&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;之前搞了一个公益的 CDN 结果被一些视频网站刷了 500G</summary>
+        
+      
+    
+    
+    
+    <category term="源码" scheme="https://www.cnortles.top/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="视频解析" scheme="https://www.cnortles.top/tags/%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>钉钉在线课堂使用</title>
+    <link href="https://www.cnortles.top/posts/f5ea3af7.html"/>
+    <id>https://www.cnortles.top/posts/f5ea3af7.html</id>
+    <published>2022-07-20T23:03:52.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;疫情当下，在家网课是保证学习不中断其中的一个方式，今天来讲一下如何使用 &lt;code&gt;钉钉在线课堂&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;如何添加上课人员？&quot;&gt;如何添加上课人员？&lt;/h2&gt;
+&lt;p&gt;钉钉的群直播课堂只有 302</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.cnortles.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://www.cnortles.top/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自定义网站字体</title>
+    <link href="https://www.cnortles.top/posts/42dc9a81.html"/>
+    <id>https://www.cnortles.top/posts/42dc9a81.html</id>
+    <published>2022-07-20T22:57:55.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;说到网站字体，chrome 支持性是最好的，IE 是最差的，为了防止 IE 对我们字体的残害，让我们一起抵制 IE 吧话归正传，自定义全局字体是很简单的，只需要几行 CSS 就成&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.cnortles.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="css" scheme="https://www.cnortles.top/tags/css/"/>
+    
+    <category term="字体" scheme="https://www.cnortles.top/tags/%E5%AD%97%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网盘本地化（支持docker）</title>
+    <link href="https://www.cnortles.top/posts/2fd44f51.html"/>
+    <id>https://www.cnortles.top/posts/2fd44f51.html</id>
+    <published>2022-07-20T22:45:33.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;自从工信部下令整改网盘后，现在的网盘界良心多了，有了很多可以蹭羊毛的机会，今天这篇文章介绍的是如何将网盘挂载为本地硬盘使用。&lt;/p&gt;
+&lt;h1&gt;软件信息&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;功能：查看文件夹大小、使用第三方播放器播放视频、</summary>
+        
+      
+    
+    
+    
+    <category term="资源" scheme="https://www.cnortles.top/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="资源" scheme="https://www.cnortles.top/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>生物神经系统</title>
+    <link href="https://www.cnortles.top/posts/9ec5b301.html"/>
+    <id>https://www.cnortles.top/posts/9ec5b301.html</id>
+    <published>2022-07-18T22:23:28.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;神经元&lt;/h1&gt;
+&lt;h2 id=&quot;地位&quot;&gt;地位&lt;/h2&gt;
+&lt;p&gt;是神经系统的基本单位和重要组成&lt;/p&gt;
+&lt;h2 id=&quot;组成&quot;&gt;组成&lt;/h2&gt;
+&lt;h3 id=&quot;胞体&quot;&gt;胞体&lt;/h3&gt;
+&lt;p&gt;含有细胞核&lt;/p&gt;
+&lt;h3 id=&quot;突体&quot;&gt;突体&lt;/h3&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.cnortles.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="高中" scheme="https://www.cnortles.top/tags/%E9%AB%98%E4%B8%AD/"/>
+    
+    <category term="生物" scheme="https://www.cnortles.top/tags/%E7%94%9F%E7%89%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>制作一个IP查询小接口</title>
+    <link href="https://www.cnortles.top/posts/9aff0b88.html"/>
+    <id>https://www.cnortles.top/posts/9aff0b88.html</id>
+    <published>2022-07-10T10:04:16.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;喜欢上网冲浪的同学们应该发现了，最近越来越多的平台开始支持 IP 地址显示了，咱也要紧跟时代的步伐，于是有了今天的文章，为网站加入 IP 显示&lt;/p&gt;
+&lt;h2 id=&quot;自建-IP-地址查询接口&quot;&gt;自建 IP</summary>
+        
+      
+    
+    
+    
+    <category term="源码" scheme="https://www.cnortles.top/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="PHP" scheme="https://www.cnortles.top/tags/PHP/"/>
+    
+    <category term="API" scheme="https://www.cnortles.top/tags/API/"/>
+    
+    <category term="IP" scheme="https://www.cnortles.top/tags/IP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更新日志</title>
+    <link href="https://www.cnortles.top/posts/5a717bf0.html"/>
+    <id>https://www.cnortles.top/posts/5a717bf0.html</id>
+    <published>2022-07-04T23:03:52.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;timeline green&quot;&gt;&lt;div class=&#39;timeline-item headline&#39;&gt;&lt;div class=&#39;timeline-item-title&#39;&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    
+    <category term="更新日志" scheme="https://www.cnortles.top/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>物质的第四态（科普）</title>
+    <link href="https://www.cnortles.top/posts/62ba053c.html"/>
+    <id>https://www.cnortles.top/posts/62ba053c.html</id>
+    <published>2022-02-12T08:50:54.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;摘要：在初中物理，我们学习了物质有三态——气态、液态、固态，但在生活中、除了有这三种物态，还有一种物态叫做等离子态，我们生活中‘高温火焰’就处于等离子态，也就是等离子体&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;&lt;strong&gt;等离子态的定义：&lt;</summary>
+        
+      
+    
+    
+    
+    <category term="文案" scheme="https://www.cnortles.top/categories/%E6%96%87%E6%A1%88/"/>
+    
+    
+    <category term="学习" scheme="https://www.cnortles.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="文章" scheme="https://www.cnortles.top/tags/%E6%96%87%E7%AB%A0/"/>
+    
+    <category term="物理" scheme="https://www.cnortles.top/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>phton基础版教程</title>
+    <link href="https://www.cnortles.top/posts/37f2dd15.html"/>
+    <id>https://www.cnortles.top/posts/37f2dd15.html</id>
+    <published>2022-02-04T02:59:42.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;什么是 python&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python 由&lt;a href=&quot;https://baike.baidu.com/item/%E8%8D%B7%E5%85%B0/190469&quot;&gt;荷兰&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="https://www.cnortles.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="学习" scheme="https://www.cnortles.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="编程" scheme="https://www.cnortles.top/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用PHP+图床搭建随机API</title>
+    <link href="https://www.cnortles.top/posts/762d4b0f.html"/>
+    <id>https://www.cnortles.top/posts/762d4b0f.html</id>
+    <published>2022-01-30T20:17:27.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;网上有很多随机图片的教程，本文主要使用 PHP 读取 txt 文件中记录的图片链接达到随机图片的效果&lt;/p&gt;
+&lt;h1&gt;开始&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;准备 PHP 环境（推荐 PHP 版本</summary>
+        
+      
+    
+    
+    
+    <category term="源码" scheme="https://www.cnortles.top/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="PHP" scheme="https://www.cnortles.top/tags/PHP/"/>
+    
+    <category term="API" scheme="https://www.cnortles.top/tags/API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>浅淡宇宙的多元（科创小论文）</title>
+    <link href="https://www.cnortles.top/posts/gzwlnasa.html"/>
+    <id>https://www.cnortles.top/posts/gzwlnasa.html</id>
+    <published>2022-01-24T22:37:57.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;摘要：多元宇宙是无限个或有限个可能的宇宙的集合，包含了一切存在和可能存在的事物及其状态。多元宇宙的每一个宇宙都遵循自己的物理法则。一般认为，在量子领域中，所谓的规则都不稳定，时间与空间的契合度最低，一切都处于狂暴状态我们可以在这种状态下借助“爱因斯</summary>
+        
+      
+    
+    
+    
+    <category term="文案" scheme="https://www.cnortles.top/categories/%E6%96%87%E6%A1%88/"/>
+    
+    
+    <category term="学习" scheme="https://www.cnortles.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="文章" scheme="https://www.cnortles.top/tags/%E6%96%87%E7%AB%A0/"/>
+    
+    <category term="物理" scheme="https://www.cnortles.top/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>铁磁性的秘密（科创小论文）</title>
+    <link href="https://www.cnortles.top/posts/gzwlfe.html"/>
+    <id>https://www.cnortles.top/posts/gzwlfe.html</id>
+    <published>2022-01-24T22:15:28.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;摘要：铁钴镍等金属的电子排列遵循了洪特规则，因此在磁场中有了相互作用力，对外有了磁现象。关键字：洪特规则 电子排列</summary>
+        
+      
+    
+    
+    
+    <category term="文案" scheme="https://www.cnortles.top/categories/%E6%96%87%E6%A1%88/"/>
+    
+    
+    <category term="学习" scheme="https://www.cnortles.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="文章" scheme="https://www.cnortles.top/tags/%E6%96%87%E7%AB%A0/"/>
+    
+    <category term="物理" scheme="https://www.cnortles.top/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用Hexo框架搭建静态博客</title>
+    <link href="https://www.cnortles.top/posts/697f76e7.html"/>
+    <id>https://www.cnortles.top/posts/697f76e7.html</id>
+    <published>2022-01-23T03:22:51.000Z</published>
+    <updated>2022-08-09T16:15:56.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;有很多开源的动态博客框架，我们为什么要用静态博客框架呢？让我们先看看什么是 Hexo&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.cnortles.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="hexo" scheme="https://www.cnortles.top/tags/hexo/"/>
+    
+    <category term="butterfly" scheme="https://www.cnortles.top/tags/butterfly/"/>
+    
+  </entry>
+  
+</feed>

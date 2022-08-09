@@ -1,0 +1,149 @@
+#Powered By https://clientworker.js.org/
+name: ClientWorker 
+cleaninterval: 1000*1200 # 每1200秒检测并清理一次缓存
+# ClientWorker热补丁
+hotpatch:
+  - https://cdn.cnortles.top/npm/clientworker
+  - https://cdn.cnortles.top/gh/ChenYFan/ClientWorker@gh-pages/cw.js
+  - https://raw.githubusercontent.com/ChenYFan/ClientWorker/gh-pages/cw.js
+  - https://cdn.jsdelivr.net/gh/ChenYFan/ClientWorker/cw.js
+# Config热更新
+hotconfig:
+  - https://test.cnortles.top/config.yaml
+  - https://cdn.cnortles.top/gh/cnortles/blog@gh-pages/config.yaml
+  - https://cdn.jsdelivr.net/gh/cnortles/blog@gh-pages/config.yaml
+  - https://github.com/cnortles/blog/raw/gh-pages/config.yaml
+  - https://raw.githubusercontent.com/cnortles/blog/gh-pages/config.yaml
+catch_rules:
+# 站点多线路选择
+  - rule: _
+    transform_rules:
+      - search: \#.+
+        searchin: url
+        replace: ''
+      - search: \?.* #在发送请求时匹配?后内容并移除，仅限静态请求
+        replace: '' 
+      - search: _ 
+        replace: 
+          - test.cnortles.top 
+          - www.cnortles.top
+          - _
+          - www1.cnortles.top #vercel部署
+          - www2.cnortles.top #GithubPage托管
+          - www.cnortles.tk #Cloudflare托管
+      - search: \.html$
+        header:
+          Content-Type: text/html;charset=UTF-8 #修复标头
+      - search: _
+        action: fetch
+        fetch:
+          status: 200
+          engine: parallel
+          preflight: false
+          timeout: 3000
+          cache:
+            expire: 1000*60*60*2 # 缓存8小时
+            delay: 200
+      # 错误请求拦截
+      - search: (^5) 
+        searchin: status 
+        action: return
+        return:
+          body: 唔~页面崩溃了哎,怎么想都进不去的啦!|CRL
+          status: 503
+
+# 静态资源 CDN 选择
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|unpkg\.com|npm\.elemecdn\.com|unpkg\.zhimg\.com|cdn\.cnortles\.top\/npm)
+    transform_rules:
+      - search: _
+        searchin: url
+        replace:
+          - https://project.cnortles.top/proxy/jsdelivr/npm
+          - https://unpkg.cnortles.top
+          - https://cdn.cnortles.top/npm
+          - https://cdn1.tianli0.top/npm
+          - https://unpkg.com
+          - https://unpkg.zhimg.com 
+          - https://npm.elemecdn.com 
+          - https://npm.sourcegcdn.com 
+          - https://cdn.bilicdn.tk/npm 
+          - https://cdn.staticfile.org/
+          - _
+      - search: _
+        action: fetch
+        searchin: url
+        fetch:
+          status: 200
+          engine: parallel
+          preflight: false # false
+          timeout: 3000
+          cache:
+            expire: 1000*60*60*8 # 缓存8小时
+            delay: 200
+  - rule: ^https\:\/\/cdnjs\.cloudflare\.com\/ajax\/libs
+    transform_rules:
+      - search: _
+        replace:
+          - _
+          - https://cdn.bootcdn.net/ajax/libs
+          - https://lib.baomitu.com
+          - https://mirrors.cqupt.edu.cn/cdnjs/ajax/libs # 重庆邮电
+          - https://cdn.staticfile.org
+          - https://mirrors.sustech.edu.cn/cdnjs/ajax/libs # 南大
+          - https://cdnjs.sourcegcdn.com/ajax/libs # 全同步 https://cdnjs.cloudflare.com
+      - search: _
+        action: fetch
+        fetch: 
+          status: 200
+          engine: parallel
+          preflight: false # false
+          timeout: 3000
+          cache:
+            expire: 1000*60*60*8 # 缓存8小时
+            delay: 200
+
+
+
+  - rule: ^https\:\/\/(cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh
+    transform_rules:
+      - search: _
+        replace:
+          - https://project.cnortles.top/proxy/jsdelivr/gh
+          - https://cdn.cnortles.top/gh
+          - https://cdn1.tianli0.top/gh
+          - _
+      - search: _
+        action: fetch
+        fetch:
+          status: 200
+          engine: parallel
+          preflight: false # false
+          timeout: 3000
+          cache:
+            expire: 1000*60*60*8 # 缓存8小时
+            delay: 200
+# 图片资源替换
+  - rule: ^https\:\/\/source-1302300903\.cos\.ap-nanjing\.myqcloud\.com
+    transform_rules:
+      - search: _
+        replace: 
+          - https://source.cnortles.top
+      - search: _
+        action: fetch
+        fetch:
+          timeout: 30000
+          status: 200
+          engine: fetch
+          preflight: false
+          cache:
+            expire: 1000*120 # 缓存120分钟
+            delay: 200
+  # 跳过一些规则,避免BUG
+  - rule: .*
+    transform_rules:
+      - search: baidu\.com
+        action: skip
+      - search: 51\.la
+        action: skip
+      - search: api\.cnortles\.top
+        action: skip

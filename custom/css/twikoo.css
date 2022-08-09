@@ -1,0 +1,127 @@
+.twikoo {
+    position: relative;
+  }
+  .twikoo svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+  }
+  
+  /* 全局 CSS */
+  /* 输入评论时自动隐藏输入框背景图片 */
+  .tk-input[data-v-619b4c52] .el-textarea__inner:focus {
+    background-image: none !important;
+  }
+  /* 评论块气泡化修改 */
+  .tk-content {
+    background:rgba(245, 245, 245, 0.758) ; /*默认模式访客气泡配色*/
+    padding: 10px;
+    color: rgb(139, 136, 136); /*默认模式访客气泡字体配色*/
+    border-radius: 12px;
+    font-size: 16px !important;
+    width: fit-content;
+    max-width: 100%;
+    position: relative !important;
+    overflow: visible !important;
+    max-height: none !important;
+  }
+  .tk-content img {
+    max-width: 100% !important;
+  }
+  .tk-owo-emotion,
+  .twikoo .OwO-item img {
+    width: 3em;
+    height: auto;
+  }
+  .tk-input[data-v-619b4c52] .el-textarea__inner{
+    padding-bottom: 40px;
+  }
+  .tk-row-actions-start[data-v-619b4c52]{
+    min-height: 20px;
+  }
+  
+  /* element-ui overwrite */
+  .twikoo .el-input__inner,
+  .twikoo .el-textarea__inner {
+    color: currentColor;
+    background-color: transparent;
+    border-color: rgba(144,147,153,0.31);
+  }
+  .twikoo .el-input__inner:hover,
+  .twikoo .el-textarea__inner:hover {
+    border-color: rgba(144,147,153,0.50);
+  }
+  .twikoo .el-input__inner:focus,
+  .twikoo .el-textarea__inner:focus {
+    border-color: #409eff;
+  }
+  .twikoo .el-input-group__append,
+  .twikoo .el-input-group__prepend {
+    color: currentColor;
+    background-clip: padding-box;
+    background-color: rgba(144,147,153,0.13);
+    border-color: rgba(144,147,153,0.31);
+  }
+  .twikoo .el-button:not(.el-button--primary):not(.el-button--text) {
+    color: currentColor;
+    background-color: rgba(144,147,153,0.063);
+    border-color: rgba(144,147,153,0.31);
+  }
+  .twikoo .el-button:not(.el-button--primary):not(.el-button--text):active,
+  .twikoo .el-button:not(.el-button--primary):not(.el-button--text):focus,
+  .twikoo .el-button:not(.el-button--primary):not(.el-button--text):hover {
+    color: #409eff;
+    background-color: rgba(64,158,255,0.063);
+    border-color: rgba(64,158,255,0.50);
+  }
+  .twikoo .el-button--primary.is-disabled,
+  .twikoo .el-button--primary.is-disabled:active,
+  .twikoo .el-button--primary.is-disabled:focus,
+  .twikoo .el-button--primary.is-disabled:hover {
+    color: rgba(255,255,255,0.63);
+    background-color: rgba(64,158,255,0.50);
+    border-color: transparent;
+  }
+  /* 修复图片出框 */
+  .tk-content img {
+    max-width: 100% !important;
+  }
+  /* 修复过长文本出框 */
+  .tk-content pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .tk-content a {
+    color: #eeecaa; /*默认模式超链接配色*/
+  }
+  /* 夜间模式配色，具体比照上方默认模式class */
+  [data-theme="dark"] .tk-content {
+    background: #000;
+    color: #fff;
+  }
+  [data-theme="dark"] .tk-content a {
+    color: #dfa036;
+  }
+  [data-theme="dark"] .tk-master .tk-content {
+    background: rgba(0, 0, 0, 0.719);
+    color: #fff;
+  }
+  [data-theme="dark"] .tk-master .tk-content a {
+    color: #dfa036;
+  }
+  .twikoo .el-loading-mask {
+    background-color: transparent;
+    backdrop-filter: opacity(20%);
+  }
+  .twikoo .el-textarea .el-input__count {
+    color: currentColor;
+    background: transparent;
+  }
+  .tk-admin-warn {
+    padding: 1rem 1.5rem;
+    background-color: #fff7d0;
+    border-left: 0.5rem solid #e7c000;
+    color: #6b5900;
+    align-self: stretch;
+  }
+  

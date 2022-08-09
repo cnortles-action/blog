@@ -1,0 +1,22 @@
+# robots.txt © http://www.cnortles.top/ by 2022
+User-agent: *
+Allow: /
+Allow: /about/
+Allow: /posts/
+Allow: /archives/
+Allow: /tags/
+Allow: /categories/
+Allow: /platlist/
+Allow: /categories/
+Allow: /link/
+Allow: /bangummis/
+Allow: /jx/
+
+Disallow: /custom/
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /public/
+
+Sitemap: https://www.cnortles.top/sitemap.xml
+Sitemap: https://www.cnortles.top/atom.xml
